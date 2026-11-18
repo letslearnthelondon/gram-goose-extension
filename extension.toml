@@ -1,0 +1,18 @@
+id = "goose"
+name = "Goose"
+version = "0.2.0"
+schema_version = 1
+authors = ["Travis Noble"]
+description = "Goose language support: tree-sitter grammar, syntax highlighting, and the goose language server"
+repository = "https://github.com/letslearnthelondon/gram-goose-extension"
+
+[grammars.goose]
+repository = "https://github.com/aardappel/goose"
+rev = "745901fd48224feb782d707922a20dcd25c669fd"
+commit = "745901fd48224feb782d707922a20dcd25c669fd"
+path = "tree-sitter"
+
+[language_servers.goose]
+name = "Goose Language Server"
+languages = ["Goose"]
+language_ids = { Goose = "goose" }

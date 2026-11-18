@@ -1,0 +1,7 @@
+name = "Goose"
+grammar = "goose"
+path_suffixes = ["goose"]
+line_comments = ["// "]
+block_comment = ["/*", "*/"]
+tab_size = 4
+word_characters = ["_"]
