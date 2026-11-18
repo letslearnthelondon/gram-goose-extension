@@ -9,7 +9,6 @@ repository = "https://github.com/letslearnthelondon/gram-goose-extension"
 [grammars.goose]
 repository = "https://github.com/aardappel/goose"
 rev = "745901fd48224feb782d707922a20dcd25c669fd"
-commit = "745901fd48224feb782d707922a20dcd25c669fd"
 path = "tree-sitter"
 
 [language_servers.goose]
